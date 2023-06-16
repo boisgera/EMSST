@@ -6,6 +6,6 @@ def message_salutation(nom):
 
         >>> import salutations
         >>> salutations.message_salutation("Sébastien")
-        'Hello Sébastien !'
+        'Bonjour Sébastien !'
     """
     return f"Hello {nom} !"

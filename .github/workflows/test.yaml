@@ -15,3 +15,5 @@ jobs:
           python-version: "3.10"
       - name: Test the project
         run: python -m doctest salutations.py
+      - name: Test the project (verbose mode)
+        run: python -m doctest --verbose salutations.py
